@@ -1,0 +1,16 @@
+{
+  "name": "level",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css --minify"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
