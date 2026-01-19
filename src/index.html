@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./output.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Level - a website developement</title>
+</head>
+
+<body class="m-0">
+  <!-- Header Starts -->
+  <div class="fixed z-10 top-0 left-0 bg-white w-full m-0 shadow-lg">
+    <nav class="mt-0 flex justify-between max-w-283 mx-auto items-center py-0 px-1">
+      <div class="flex items-center p-2">
+        <img src="../img/logo.png" alt="" />
+        <p class="font-extrabold text-2xl">Level</p>
+      </div>
+      <ul class="flex">
+        <li>
+          <a href="#hero"
+            class="hover:bg-red-400 hover:text-white focus:bg-red-400 focus:text-white transition duration-400 font-light px-6 py-6.25 border-l border-r border-gray-300 border-collapse">Home</a>
+        </li>
+        <li>
+          <a href="#portfolio"
+            class="hover:bg-red-400 hover:text-white focus:bg-red-400 focus:text-white transition duration-400 font-light px-6 py-6.25">portfolio</a>
+        </li>
+        <li>
+          <a href="#blog"
+            class="hover:bg-red-400 hover:text-white focus:bg-red-400 focus:text-white transition duration-400 font-light px-6 py-6.25 border-l border-gray-300 border-collapse">blog
+            entries</a>
+        </li>
+        <li>
+          <a href="#contact"
+            class="hover:bg-red-400 hover:text-white focus:bg-red-400 focus:text-white transition duration-400 font-light px-6 py-6.25 border-l border-r border-gray-300 border-collapse">contact
+            us</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Header Section Ends  -->
+
+  <!-- Hero Section Starts -->
+
+  <div class="bg-[url(../img/bg-img-1.jpg)] w-full h-screen bg-no-repeat bg-cover bg-center grid place-content-center"
+    id="hero">
+    <div class="max-w-5xl m-auto bg-white p-14">
+      <div class="flex gap-2 mb-4">
+        <div class="px-5 py-2 border border-gray-400 focus:border-gray-950">
+          <i class="fa-solid fa-location-dot text-xl text-red-400"></i>
+          <input type="text" class="w-[221px] placeholder:text-gray-400 outline-none"
+            placeholder="Type your destination..." />
+        </div>
+        <div class="px-5 py-2 border border-gray-400 focus:border-gray-950">
+          <i class="fa-solid fa-calendar text-xl text-red-400"></i>
+          <input type="text" class="w-[221px] placeholder:text-gray-400 outline-none" placeholder="Check In" />
+        </div>
+        <div class="px-5 py-2 border border-gray-400 focus:border-gray-950">
+          <i class="fa-solid fa-calendar text-xl text-red-400"></i>
+          <input type="text" class="w-[221px] placeholder:text-gray-400 outline-none" placeholder="Check Out" />
+        </div>
+      </div>
+      <div class="flex items-center gap-2 mb-4">
+        <div class="px-5 py-2 border border-gray-400 focus:border-gray-950">
+          <i class="fa fa-user text-red-400 text-xl"></i>
+          <select class="w-40 focus:text-gray-800 text-gray-400 transition duration-300">
+            <option>Adult</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="px-5 py-2 border border-gray-400 focus:border-gray-950">
+          <i class="fa fa-user text-red-400 text-xl"></i>
+          <select class="w-40 focus:text-gray-800 text-gray-400 transition duration-300">
+            <option>Children</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="px-3 py-2 border border-gray-400 focus:border-gray-950">
+          <i class="fa-solid fa-bed text-red-400 text-xl"></i>
+          <select class="w-40 focus:text-gray-800 outline-none text-gray-400 transition duration-300">
+            <option>Room</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <button class="bg-red-400 p-3.25 text-center text-xs text-white uppercase w-48 font-extrabold">
+          check availablity
+        </button>
+      </div>
+      <div class="flex justify-between">
+        <p class="text-gray-400">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="text-red-400 text-sm font-extrabold">Need Help?</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="relative bg-red-400 font-extrabold text-center tracking-wide tm-section">
+    <p class="text-5xl mb-5 text-white">We are here to help you?</p>
+    <p class="text-sm mb-5 text-white">Subscribe to get our newsletters</p>
+    <button class="text-white uppercase border-2 px-3.5 border-b-0 text-sm font-bold">
+      subscribe newsletters
+    </button>
+    <div class="-z-40 w-full absolute bg-red-400 clip-path"></div>
+  </div>
+  <div class="h-96 w-full place-content-center mt-40">
+    <div class="max-w-4xl m-auto flex gap-11">
+      <div class="text-center hover:scale-120 hover:shadow-2xl transition duration-500">
+        <div class="mb-3.5">
+          <i class="fa-solid fa-gavel -rotate-90 text-8xl text-red-400"></i>
+        </div>
+        <p class="text-red-400 text-2xl font-bold mb-3.5">
+          Level HTML Template by Tooplate website
+        </p>
+        <p class="text-gray-400 mb-3.5">
+          You are allowed to download, edit and use this template for your
+          business or client websites.
+        </p>
+        <a class="text-red-400 uppercase text-sm font-bold" href="#">continue reading...</a>
+      </div>
+      <div class="text-center hover:scale-120 hover:shadow-2xl transition duration-500">
+        <div class="mb-3.5">
+          <i class="fa-solid fa-plane -rotate-30 text-8xl text-red-400"></i>
+        </div>
+        <p class="text-red-400 text-2xl font-bold mb-3.5">
+          Level HTML Template by Tooplate website
+        </p>
+        <p class="text-gray-400 mb-3.5">
+          You are allowed to download, edit and use this template for your
+          business or client websites.
+        </p>
+        <a class="text-red-400 uppercase text-sm font-bold" href="#">continue reading...</a>
+      </div>
+      <div class="text-center hover:scale-120 hover:shadow-2xl transition duration-500">
+        <div class="mb-3.5">
+          <i class="fa-jelly fa-regular fa-life-ring font-extrabold text-8xl text-red-400"></i>
+        </div>
+        <p class="text-red-400 text-2xl font-bold mb-3.5">
+          Level HTML Template by Tooplate website
+        </p>
+        <p class="text-gray-400 mb-3.5">
+          You are allowed to download, edit and use this template for your
+          business or client websites.
+        </p>
+        <a class="text-red-400 uppercase text-sm font-bold" href="#">continue reading...</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section Ends  -->
+
+  <!-- Portfolio Section Starts  -->
+
+  <div class="w-full h-133 bg-gray-100 pt-10" id="portfolio">
+    <div class="w-6xl m-auto flex gap-9 place-items-start place-content-center pt-5 px-2.5">
+      <div class="flex gap-3 items-center">
+        <div class="bg-white flex w-80 h-125 flex-col place-items-start">
+          <div>
+            <img src="../img/img-01.jpg" class="object-contain w-full" alt="" />
+          </div>
+          <div class="p-4">
+            <p class="text-red-400 text-2xl font-bold mb-3.5">
+              Level HTML Template by Tooplate website
+            </p>
+            <p class="text-gray-400 mb-3.5">
+              You are allowed to download, edit and use this template for your
+              business or client websites.
+            </p>
+            <a class="text-white block bg-red-400 text-center uppercase text-sm font-bold w-full p-2" href="#">get more
+              info.</a>
+          </div>
+        </div>
+
+        <div class="bg-white w-80 h-125 flex flex-col place-items-center">
+          <div>
+            <img src="../img/img-02.jpg" class="object-contain w-full" alt="" />
+          </div>
+          <div class="p-4">
+            <p class="text-red-400 text-2xl font-bold mb-3.5">
+              Level HTML Template by Tooplate website
+            </p>
+            <p class="text-gray-400 mb-3.5">
+              You are allowed to download, edit and use this template for your
+              business or client websites.
+            </p>
+            <a class="text-white block bg-red-400 text-center uppercase text-sm font-bold w-full p-2" href="#">view
+              detail</a>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-2xl h-125 bg-white">
+        <div class="bg-red-400 p-3 text-white">
+          <p class="text-2xl font-bold">Recomended Places</p>
+          <p class="text-sm">
+            Enamel pin cliche tilde, kitsch and VHS thundercats
+          </p>
+        </div>
+        <div class="p-5 flex flex-col gap-3.5">
+          <div class="flex justify-start gap-5 items-center uppercase bg-gray-100">
+            <img src="../img/tn-img-01.jpg" alt="" />
+            <p>Europe</p>
+          </div>
+          <div class="flex justify-start gap-5 items-center uppercase bg-gray-100">
+            <img src="../img/tn-img-02.jpg" alt="" />
+            <p>Asia</p>
+          </div>
+          <div class="flex justify-start gap-5 items-center uppercase bg-gray-100">
+            <img src="../img/tn-img-03.jpg" alt="" />
+            <p>Africa</p>
+          </div>
+          <div class="flex justify-start gap-5 items-center uppercase bg-gray-100">
+            <img class="w-22.5 h-21.25" src="../img/tn-img-04.jpg" alt="" />
+            <p>Pakistan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <video controls="" loop="">
+      <source src="../videos/Nathia_Gali.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- Portfolio Section Ends  -->
+
+  <!-- Blog Section Starts  -->
+
+  <div class="relative h-200 place-items-center" id="blog">
+    <div class="absolute inset-0 -z-30 h-full">
+      <video autoplay loop>
+        <source src="../videos/pakistan-flag.mp4">
+      </video>
+    </div>
+    <div class="flex gap-70 h-full max-w-6xl m-auto place-items-center justify-center">
+      <div class="w-100 justify-center">
+        <p class="text-5xl uppercase font-extrabold">pakistan</p>
+        <p class="text-2xl capitalize font-bold text-red-400">nathia gali</p>
+      </div>
+      <div class="max-h-3/3 bg-white/70 p-4 shadow-2xl shadow-green-600">
+        <div class="flex gap-7 mb-3.5">
+          <img src="../img/pak-flag.jpg" class="w-50" />
+          <div class="flex flex-col gap-3">
+            <p class="text-red-500 text-lg font-bold tracking-wider">
+              Suspendisse vel est libero sem phasellus ac laoreet
+            </p>
+            <p class="text-neutral-400 text-sm">
+              Vivamus eget tellus ornare, sollicitudin quam id, dictum nulla.
+              Phasellus finibus rhoncus justo, tempus eleifend neque dictum
+              ac. Aenean metus leo, consectetur non.
+            </p>
+            <p class="text-neutral-400 text-sm">
+              Etiam aliquam arcu at mauris consectetur scelerisque. Integer
+              elementum justo in orci facilisis ultricies. Pellentesque at
+              velit ante. Duis scelerisque metus vel felis porttitor gravida.
+            </p>
+            <a class="text-red-500 uppercase text-sm font-bold" href="#">continue reading...</a>
+          </div>
+        </div>
+
+        <div class="flex gap-7 mb-3.5">
+          <img src="../img/nathia-gali1.jpg" class="w-50" />
+          <div class="flex flex-col gap-3">
+            <p class="text-red-500 text-lg font-bold tracking-wider">
+              Suspendisse vel est libero sem phasellus ac laoreet
+            </p>
+            <p class="text-neutral-400 text-sm">
+              Vivamus eget tellus ornare, sollicitudin quam id, dictum nulla.
+              Phasellus finibus rhoncus justo, tempus eleifend neque dictum
+              ac. Aenean metus leo, consectetur non.
+            </p>
+            <a class="text-red-500 uppercase text-sm font-bold" href="#">continue reading...</a>
+          </div>
+        </div>
+        <div class="flex gap-7">
+          <img src="../img/Nathia-Gali3.jpg" class="w-50" />
+          <div class="flex flex-col gap-3">
+            <p class="text-red-500 text-lg font-bold tracking-wider">
+              Suspendisse vel est libero sem phasellus ac laoreet
+            </p>
+            <p class="text-neutral-400 text-sm">
+              Vivamus eget tellus ornare, sollicitudin quam id, dictum nulla.
+              Phasellus finibus rhoncus justo, tempus eleifend neque dictum
+              ac. Aenean metus leo, consectetur non.
+            </p>
+            <a class="text-red-500 uppercase text-sm font-bold" href="#">continue reading...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog Section Ends  -->
+
+  <!-- Contact Section Starts  -->
+
+  <div class="bg-[url(../img/bg-img-3.jpg)] bg-no-repeat bg-cover w-full h-[660px]" id="contact">
+    <div
+      class="max-w-[1150px] h-[550px] gap-4 m-auto items-center justify-center flex flex-row place-content-center place-items-center flex-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58211.131884536764!2d73.34160348505213!3d34.08805632994951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfd4b203243f2b%3A0xe2a84441ca2e0678!2sNathia%20Gali%2C%20Pakistan!5e0!3m2!1sen!2s!4v1768648167816!5m2!1sen!2s"
+        width="700" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="mt-35 rounded-2xl"></iframe>
+
+      <div class="flex flex-col gap-3 p-11 bg-white w-[400px] h-[450px] mt-35 rounded-2xl">
+        <input type="text" placeholder="Name" class="border-none bg-gray-100 w-80 p-2 placeholder:text-gray-400" />
+        <input type="text" placeholder="Email" class="border-none bg-gray-100 w-80 p-2 placeholder:text-gray-400" />
+        <input type="text" placeholder="Subject" class="border-none bg-gray-100 w-80 p-2 placeholder:text-gray-400" />
+        <textarea placeholder="Message" rows="9" cols="9"
+          class="border-none bg-gray-100 w-80 p-2 placeholder:text-gray-400">
+          </textarea>
+        <a href="" class="text-center text-white p-3 w-80 bg-red-400">send message now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section Ends  -->
+
+  <!-- Footer Section Starts -->
+
+  <div class="bg-slate-900 w-full h-20 text-center py-6 text-white">
+    <p>
+      Copyright © 2026 Your Company - Design:
+      <span class="text-red-400">Tooplate</span>
+    </p>
+  </div>
+
+  <!-- Footer Section Ends -->
+</body>
+
+</html>
